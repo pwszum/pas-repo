@@ -12,6 +12,6 @@ for i in range(1, n):
             hostname = socket.gethostbyaddr(sys.argv[i])
             print('Hostname for IP address ' + sys.argv[i] + ': ' + hostname[0])
         except:
-            print('Couldn\'t get hostname')
+            print('Couldn\'t get hostname for ' + sys.argv[i])
     except:
         print('Invalid IP address: ' + sys.argv[i])

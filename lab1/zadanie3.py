@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import ipaddress
 
+print('IP Address: ', end='')
 ip = input()
 
 try:

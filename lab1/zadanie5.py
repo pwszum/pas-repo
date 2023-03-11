@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import ipaddress
 import socket
 import sys
 
@@ -10,4 +9,4 @@ for i in range(1, n):
         ip = socket.gethostbyname(sys.argv[i])
         print('IP address for hostname ' + sys.argv[i] + ': ' + ip)
     except:
-        print('Couldn\'t get IP address')
+        print('Couldn\'t get IP address for ' + sys.argv[i])
