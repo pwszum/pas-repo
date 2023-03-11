@@ -16,7 +16,7 @@ try:
     print('Type port to end on: ', end='')
     last = int(input())
     print('Set timeout to (in seconds): ', end='')
-    tm = int(input())
+    tm = float(input())
     if first > last or first < 0 or last < 0 or first > 65353 or last > 65353:
         print('Invalid port range')
         sys.exit()
