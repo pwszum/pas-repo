@@ -1,0 +1,24 @@
+./zadanie4_clientTCP.py
+Hello world!
+0.0007 seconds
+
+./zadanie4_clientUDP.py
+Hello world!
+0.0005 seconds
+
+
+> Dla którego z gniazd czas jest krótszy?
+UDP
+
+> Z czego wynika krótszy czas?
+Przy TCP przed wysłaniem wiadomości nawiązujemy połączenie,
+przy UDP jedynie wysyłamy i odbieramy wiadomości bez potwierdzenia
+
+> Jakie są zalety / wady obu rozwiązań?
+TCP jest wolniejszy, ale bardziej niezawodny
+UDP jest szybszy, ale nie gwarantuje, że dane dotarły do odbiorcy
+
+W przeciwieństwie do UDP, przy TCP niemożliwy jest multicast czy broadcast
+
+TCP kontroluje prędkość wysyłania danych, aby klient nadążał z odbiorem
+UDP przesyła dane w tempie dogodnym dla serwera, nie zważając na klientów
