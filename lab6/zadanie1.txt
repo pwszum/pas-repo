@@ -1,0 +1,34 @@
+$ telnet 212.182.24.236 1025
+
+Trying 212.182.24.236...
+Connected to 212.182.24.236.
+Escape character is '^]'.
+220 4816ed993c14 ESMTP
+EHLO pwl
+250-4816ed993c14 Nice to meet you, [212.182.27.105]
+250-PIPELINING
+250-8BITMIME
+250-SMTPUTF8
+250 AUTH LOGIN PLAIN
+AUTH LOGIN
+334 VXNlcm5hbWU6
+cGFzMjAyM0B1bWNzLnBs
+334 UGFzc3dvcmQ6
+UGFzMjAyMw==
+235 Authentication successful
+MAIL FROM: <pas2023@umcs.pl>
+250 Accepted
+RCPT TO: <pwlgsz26@gmail.com>
+250 Accepted
+DATA
+354 End data with <CR><LF>.<CR><LF>
+To: <pwlgsz26@gmail.com>
+From: <pas2023@umcs.pl>
+Subject: ESMPT Test
+
+Text to send
+.
+250 Message queued as UwZAL3oI
+QUIT
+221 Bye
+Connection closed by foreign host.
