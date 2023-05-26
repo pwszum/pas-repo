@@ -6,10 +6,11 @@ cGFzMjAyM0B1bWNzLnBs
 UGFzMjAyMw==
 MAIL FROM: <pas2023@umcs.pl>
 RCPT TO: <pwlgsz26@gmail.com>
+RCPT TO: <marcin.smolira@mail.umcs.pl>
 DATA
-To: <pwlgsz26@gmail.com>
+To: <pwlgsz26@gmail.com>, <marcin.smolira@mail.umcs.pl>
 From: <pas2023@umcs.pl>
-Subject: ESMPT Test
+Subject: ESMPT Test 2
 
 Text to send
 .

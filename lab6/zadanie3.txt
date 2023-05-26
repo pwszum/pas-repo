@@ -8,8 +8,8 @@ MAIL FROM: <pas2023@umcs.pl>
 RCPT TO: <pwlgsz26@gmail.com>
 DATA
 To: <pwlgsz26@gmail.com>
-From: <pas2023@umcs.pl>
-Subject: ESMPT Test
+From: <marcin.smolira@mail.umcs.pl>
+Subject: ESMPT Test 3
 
 Text to send
 .

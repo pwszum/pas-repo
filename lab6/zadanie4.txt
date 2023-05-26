@@ -1,0 +1,24 @@
+$ telnet 212.182.24.236 1025
+
+EHLO umcs
+AUTH LOGIN
+cGFzMjAyM0B1bWNzLnBs
+UGFzMjAyMw==
+MAIL FROM: <pas2023@umcs.pl>
+RCPT TO: <pwlgsz26@gmail.com>
+DATA
+To: <pwlgsz26@gmail.com>
+From: <pas2023@umcs.pl>
+Subject: ESMPT Test
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary=sep
+--sep
+Text to send
+--sep
+Content-Type: text/plain; name=\"file4.txt\"
+Content-Disposition: attachment; filename=\"file4.txt\"
+Content-Transfer-Encoding: base64
+WmF3YXJ0b8WbxIcgemHFgsSFY3puaWthCg==
+--sep--
+.
+QUIT
