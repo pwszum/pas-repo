@@ -1,0 +1,7 @@
+$ telnet 212.182.24.236 110
+
+USER username
+PASS password
+LIST
+RETR 17
+QUIT
